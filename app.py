@@ -4,7 +4,7 @@ from src.helper import voice_input, llm_model_object, text_to_speech
 
 
 def main():
-    st.title("Multilingual AI Assistant")
+    st.title("AI Assistant")
 
     if st.button("Ask me anything"):
         with st.spinner("Listenning...."):
@@ -24,7 +24,5 @@ def main():
                                mime="audio/mp3",
                                #key="download_button",
                                )
-
-
 if __name__ == "__main__":
     main()
